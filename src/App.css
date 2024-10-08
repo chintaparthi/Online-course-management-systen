@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; /* Adjust the margin as per your need */
+}
+
+.resize-image {
+  width: 100%;         /* Ensures the image takes up the full width of its container */
+  max-width: 550px;     /* Set a maximum width for the image */
+  height: auto;         /* Maintain the aspect ratio */
+  border-radius: 10px;  /* Optional: round the corners of the image */
+}
